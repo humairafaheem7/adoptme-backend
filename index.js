@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 //Resolve cors issue.
-app.use(cors({origin: 'http://localhost:300'}));
+app.use(cors({origin: 'http://localhost:3000'}));
 
 app.use('/api', itemsRouter);
 
